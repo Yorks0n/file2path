@@ -1,5 +1,3 @@
-library(rstudioapi)
-
 get_abs_filepath <- function(){
   platform <- Sys.info()[1]
   
