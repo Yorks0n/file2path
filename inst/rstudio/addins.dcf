@@ -1,0 +1,4 @@
+Name: Paste Relative Filepath
+Description: Insert Relative Filepath from Clipboard
+Binding: pasteRP
+Interactive: false
