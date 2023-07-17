@@ -9,30 +9,29 @@ Currently it is only available on macOS, contributions are welcome.
 To install the `file2path` package, you can use the `devtools` package to install it directly from GitHub. Open RStudio and run the following command:
 
 ```R
-devtools::install_github("your_username/file2path")
+devtools::install_github("Yorks0n/file2path")
 ```
 
-## Usage
+After installation, follow these steps to set up a shortcut for `file2path`:
 
-1. After installing the package, select and copy the file name whose relative path you want to obtain.
-2. Switch to your RStudio window.
-3. Use the keyboard shortcut `Ctrl + Shift + V` (Windows/Linux) or `Cmd + Shift + V` (Mac) to paste the relative path of the file into your current RStudio location.
-
-That's it! The relative path will be pasted into your script or console, ready for use.
+1. In RStudio, click on "Tools" in the top menu.
+2. From the dropdown menu, select "Addins" and then choose "Browse Addins...".
+3. Click on the "Keyboard Shortcuts", find `Paste Relative Filepath` and enter the desired shortcut, such as `Cmd + B` for macOS.
+4. Apply the setting.
 
 ## Example
 
 Suppose your current working directory is set to `"~/projects/my_project/"`, and you have a file named `"data.csv"` located in the subdirectory `"data"`. Here's an example of how to use `file2path` to obtain the relative path:
 
-1. Copy the file name `"data.csv"` to your clipboard.
+1. Select and copy the file  `"data.csv"` in Finder.
 2. Switch to RStudio.
-3. Press `Ctrl + Shift + V` (Windows/Linux) or `Cmd + Shift + V` (Mac) to paste the relative path.
+3. Press the preset shotcut ( `Cmd + B`  here) to paste the relative path.
 
 The result will be `"data/data.csv"`, which is the relative path of the file within the current working directory.
 
 ## Contributing
 
-Contributions to the `file2path` package are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your_username/file2path).
+Contributions to the `file2path` package are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please open an issue or submit a pull request on the [GitHub repository](https://github.com/Yorks0n/file2path).
 
 ## License
 
